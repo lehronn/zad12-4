@@ -2,18 +2,30 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://use.fontawesome.com/ef3515f844.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
-  <p id="joke"></p>
-  <button id="get-joke">Create random nerdy joke here.</button>
+  <main>
+    <header>
+        <h1>Random quote machine</h1>
+    </header>
+    <div class="box">
+        <h2 class="quote"></h2>
+        <h3 class="author"></h3>
+    </div>
+    <div>
+        <button class="trigger"> Random quote </button>
+        <a href="#" target="_blank" class="tweet"><i class="fa fa-lg fa-twitter"></i> Tweet</a>
+    </div>
+</main>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 </body>
 
 </html>

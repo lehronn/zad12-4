@@ -1,7 +1,10 @@
 body {
-  background-color: black;
-  color: white;
   size: 22px;
   font-family: sans-serif;
   text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
 }
